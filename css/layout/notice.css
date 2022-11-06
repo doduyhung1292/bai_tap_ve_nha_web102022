@@ -1,0 +1,19 @@
+.notice-success {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 46px;
+    width: 200px;
+    z-index: 49;
+    background-color: #fff;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #3b3c3f;
+    border-radius: 3px;
+}
+
+.notice-success>.content {
+    margin-left: 15px;
+}

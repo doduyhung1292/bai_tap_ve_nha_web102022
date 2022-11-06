@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo-container">
+                <div class="icon-menu"></div>
+                <div class="logo__brand"></div>
+            </div>
+            <div class="sidebar-item">
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-overview"></div>
+                        <div class="">Tổng quan</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-money"></div>
+                        <div class="">Tiền mặt</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-bank"></div>
+                        <div class="">Tiền gửi</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-buy"></div>
+                        <div class="">Mua hàng</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-sell"></div>
+                        <div class="">Bán hàng</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-order"></div>
+                        <div class="">Quản lý hóa đơn</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-warehouse"></div>
+                        <div class="">Kho</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-tools"></div>
+                        <div class="">Công cụ dụng cụ</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-assets"></div>
+                        <div class="">Tài sản cố định</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-tax"></div>
+                        <div class="">Thuế</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-price"></div>
+                        <div class="">Giá thành</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-general"></div>
+                        <div class="">Tổng hợp</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-budget"></div>
+                        <div class="">Ngân sách</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-report"></div>
+                        <div class="">Báo cáo</div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="menu-item">
+                        <div class="icon-financial"></div>
+                        <div class="">Phân tích tài chính</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="header">
+                <div class="header-left">
+                    <div class="header-left__iconmenu"></div>
+                    <div class="header-left__brandname">CÔNG TY SẢN XUẤT-THƯƠNG MẠI-DỊCH VỤ QUI PHÚC</div>
+                    <div class="header-left__icondropdown"></div>
+                </div>
+                <div class="header-right">
+                    <input class="header__icon input-search" type="search" placeholder="Nhập từ khóa tìm kiếm">
+                    <div class="icon__search"></div>
+                    <div class="icon__extend-feature"></div>
+                    <div class="icon__set-up header__icon"></div>
+                    <div class="icon-message"></div>
+                    <div class="icon-help"></div>
+                    <div class="header-right__iconnotice"></div>
+                    <div class="header-right__avatar"></div>
+                    <div class="header-right__username">Nguyễn Văn Mạnh</div>
+                    <div class="header-left__icondropdown"></div>
+                </div>
+        </div>
+        <div class="main">
+            <div class="main-header">
+                <div class="main-header__left">
+                    <div class="main-header__name">Nhân viên</div>
+                    <div class="direction"><strong style="font-size: 15px;"><</strong> Tất cả danh mục</div>
+                </div>
+                <div class="main-header__right">
+                    <button class="btn-utilities">
+                        <div>Tiện ích</div> 
+                        <div class="icon"></div>
+                    </button>
+                    <button class="btn__add-new">Thêm</button>
+                    <button class="btn__expand-more">
+                        <div class="line"></div>
+                        <div class="icon__expand-more"></div>
+                    </button>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="main-content-toolbar">
+                    <div>
+                        <button class="btn-execution">Thực hiện hàng loạt</button>
+                    </div>
+                    <div class="display-inline toolbar-right">
+                        <input type="text" class="input-search" placeholder="Tìm theo mã, tên nhân viên">
+                        <div class="icon-search"></div>
+                        <div class="icon-reload"></div>
+                        <div class="icon__excel"></div>
+                        <div class="icon__set-up"></div> 
+                    </div>
+                </div>
+                <div class="main-content-table">
+                    <table>
+                        <tr>
+                            <th class="col-out--left"></th>
+                            <th class="th__checkbox  fix-col__left">
+                                <input type="checkbox">
+                            </th>
+                            <th class="th__employee-id">MÃ NHÂN VIÊN</th>
+                            <th class="th__fullname">TÊN NHÂN VIÊN</th>
+                            <th class="th__sex">GIỚI TÍNH</th>
+                            <th class="th__date-of-birth">NGÀY SINH</th>
+                            <th class="th__entity-number">SỐ CMND</th>
+                            <th class="th__issue-date">NGÀY CẤP</th>
+                            <th class="th__issued-by">NƠI CẤP</th>
+                            <th class="th__title-job">CHỨC DANH</th>
+                            <th class="th__id-unit">MÃ ĐƠN VỊ</th>
+                            <th class="th__unit">TÊN ĐƠN VỊ</th>
+                            <th class="th__bank-account">SỐ TÀI KHOẢN</th>
+                            <th class="th__bank-name">TÊN NGÂN HÀNG</th>
+                            <th class="th__branch-bank">CHI NHÁNH TK NGÂN HÀNG</th>
+                            <th class="th__is-customer">LÀ KHÁCH HÀNG</th>
+                            <th class="th__is-supplier">LÀ NHÀ CUNG CẤP</th>
+                            <th class="th__function fix-col__right">CHỨC NĂNG</th>
+                            <th class="col-out--right"></th>
+                        </tr>
+                        <tr>
+                            <td class="col-out--left"></td>
+                            <td class="td__checkbox fix-col__left"><input type="checkbox"></td>
+                            <td class="td__employee-id">a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td class="td__function fix-col__right" style="display: flex;
+                            flex-direction: row;    align-items: center;justify-content: center;">
+                                Sửa
+                                <div class="dropdown">
+                                    <select style="height: 16px; width: 19px;border: none; margin: 0">
+                                        <option hidden></option>
+                                        <option><button>Nhân bản</button></option>
+                                        <option><button>Xóa</button></option>
+                                        <option><button>Sử dụng</button></option>
+                                    </select>
+                                </div>
+                            </td>
+                            <td class="col-out--right"></td>
+                        </tr>
+                        <tr>
+                            <td class="col-out--left"></td>
+                            <td class="td__checkbox fix-col__left"><input type="checkbox"></td>
+                            <td class="td__employee-id">a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td>a</td>
+                            <td class="td__function fix-col__right">a</td>
+                            <td class="col-out--right"></td>
+                        </tr>
+                    </table>
+                </div>
+                    <div class="container-footer">
+                        <div class="main-paging-left">Tổng số: <span>111</span> bản ghi</div>
+                        <div class="main-paging-right">
+                            <div class="select-paging">
+                                <select>
+                                    <option><button class="10row">10 bản ghi trên 1 trang</button></option>
+                                    <option><button class="20row">20 bản ghi trên 1 trang</button></option>
+                                    <option><button class="30row">30 bản ghi trên 1 trang</button></option>
+                                    <option><button class="50row">50 bản ghi trên 1 trang</button></option>
+                                    <option><button class="100row">100 bản ghi trên 1 trang</button></option>
+                                </select>
+                            </div>
+                            <div class="number-paging">
+                                <button class="next-page">Trước</button>
+                                <button class="page-selected">1</button>
+                                <button class="page-unselected">2</button>
+                                <button class="previous-page">Sau</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="model" hidden >
+        <div class="model-content">
+            <div class="model-content-header">
+                <div class="model-content-header-left">
+                    <div class="title">Thông tin nhân viên</div>
+                    <div class="model-content-header__checkbox">
+                        <input type="checkbox">
+                        <div>Là khách hàng</div>
+                    </div>
+                    <div class="model-content-header__checkbox">
+                        <input type="checkbox">
+                        <div>Là nhà cung cấp</div>
+                    </div>
+                </div>
+                <div class="model-content-header-right">
+                    <div class="icon-help"></div>
+                    <div class="icon-close btn__close"></div>
+                </div>
+            </div>
+            <div class="model-content-main">
+                <div class="job-infomation">
+                    <div class="display-inline">
+                        <div>
+                            <label for="id-employee">Mã <span style="color: red">*</span></label><br />
+                            <input type="text" id="id-employee">
+                        </div>
+                        <div>
+                            <label for="full-name">Tên <span style="color: red">*</span></label><br />
+                            <input type="text" id="full-name">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="unit">Đơn vị <span style="color: red">*</span></label><br />
+                        <select name="unit" id="unit">
+                            <option value="" style="display: none;"></option>
+                            <option>Phòng nhân sự</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="job-title">Chức danh</label><br />
+                        <input type="text" id="job-title">
+                    </div>
+                </div>
+                <div class="personal-infomation">
+                    <div class="display-inline">
+                        <div>
+                            <label for="date-of-birth">Ngày sinh</label><br />
+                            <input type="date" id="date-of-birth" placeholder="DD/MM/YYYY">
+                        </div>
+                        <div>
+                            <label for="male" class="label__sex">Giới tính</label><br />
+                                <div class="display-inline">
+                                    <div class="radio-sex">
+                                        <input type="radio" id="male" name="sex" value="1">
+                                        <label for="male">Nam</label>
+                                    </div>
+                                    <div class="radio-sex">
+                                        <input type="radio" id="female" name="sex" value="0">
+                                        <label for="female">Nữ</label>
+                                    </div>
+                                    <div class="radio-sex">
+                                        <input type="radio" id="other" name="sex" value="2">
+                                        <label for="other">Khác</label>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <div class="display-inline">
+                        <div>
+                            <label for="identity-number">Số CMND</label><br />
+                            <input type="text" id="identity-number">
+                        </div>
+                        <div>
+                            <label for="issue-date">Ngày cấp</label><br />
+                            <input type="date" id="issue-date" placeholder="DD/MM/YYYY">
+                        </div>
+                    </div>
+                    <div>
+                        <label for="issued-by">Nơi cấp</label><br />
+                        <input type="text" id="issued-by">
+                    </div>
+                </div>
+                <div class="address">
+                    <label for="address">Địa chỉ</label><br />
+                    <input type="text" id="address">
+                </div>
+                <div class="contact display-inline">
+                    <div>
+                        <label for="mobile-phone-number">ĐT di động</label><br />
+                        <input type="text" id="mobile-phone-number">
+                    </div>
+                    <div>
+                        <label for="landline-phone-number">ĐT cố định</label><br />
+                        <input type="text" id="landline-phone-number">
+                    </div>
+                    <div>
+                        <label for="email">Email</label><br />
+                        <input type="text" id="email">
+                    </div>
+                </div>
+                <div class="bank-infomation display-inline">
+                    <div>
+                        <label for="bank-account">Tài khoản ngân hàng</label><br />
+                        <input type="text" id="bank-account">
+                    </div>
+                    <div>
+                        <label for="bank-name">Tên ngân hàng</label><br />
+                        <input type="text" id="bank-name">
+                    </div>
+                    <div>
+                        <label for="branch">Chi nhánh</label><br />
+                        <input type="text" id="branch">
+                    </div>
+                </div>
+            </div>
+            <div class="model-content-footer">
+                <div class="footer-left">
+                    <button class="btn-cancel">Hủy</button>
+                </div>
+                <div class="footer-right display-inline">
+                    <button class="btn-store">Cất</button>
+                    <button class="btn-save">Cất và Thêm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dialog-notice">
+        <div class="content-notice">
+            <div class="content-main">
+                <div class="icon-warning"></div>
+                <div class="content-warning">
+                    <div class="warning">Tên không được để trống</div>
+                    <div class="warning">Tên không được để trống</div>
+                    <div class="warning">Tên không được để trống</div>
+                </div>
+            </div>
+            <div class="content-footer">
+                <button class="close-dialog">Đóng</button>
+            </div>
+        </div>
+    </div>
+    <div class="notice-success" hidden>
+        <div class="icon-success"></div>
+        <div class="content">Lưu thành công.</div>
+        <div class="icon-close close-notice"></div>
+    </div>
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/base/common.js"></script>
+    <script src="./js/pages/employee.js"></script>
+</body>
+</html>

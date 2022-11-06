@@ -1,0 +1,146 @@
+.model {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(88, 99, 99, 0.295);
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    z-index: 33;
+}
+
+.model-content {
+    width: 825px;
+    height: 540px;
+    background-color: #fff;
+}
+
+.model-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 32px 32px;
+}
+
+.model-content-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.model-content-header-right {
+    display: flex;
+}
+
+.model-content-header__checkbox {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.model-content-header__checkbox>div {
+    padding: 5px 0 0 6px;
+    align-items: flex-start;
+    font-size: 13px;
+}
+
+.model-content-header__checkbox>input {
+    height: 17px;
+    width: 17px;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+}
+
+.model-content-main {
+    padding: 0 0 20px 32px;
+    display: grid;
+    grid-column: 50% 50%;
+}
+
+.job-infomation {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.personal-infomation {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.address {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.contact {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.bank-infomation {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.model-content-footer {
+    margin: 0 32px 32px 32px;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dialog-notice {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(88, 99, 99, 0.295);
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+}
+
+.content-notice {
+    min-width: 380px;
+    min-height: 120px;
+    background-color: #fff;
+    z-index: 51;
+    padding: 32px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 32px;
+    padding-left: 15px;
+}
+
+.content-warning {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 25px;
+    color: #111;
+
+}
+
+.content-footer {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 21px;
+}

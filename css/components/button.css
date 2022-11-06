@@ -1,0 +1,174 @@
+.btn__add-new {
+    height: 36px;
+    min-width: 74px;
+    border-radius: 30px;
+    border-right: none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0 16px;
+    border: unset;
+    background-color: #2ca01c;
+    color: #fff;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.btn__expand-more {
+    height: 36px;
+    border-radius: 30px;
+    min-width: 46px;
+    border-radius: 30px;
+    color: #fff;
+    border: unset;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #2ca01c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn__expand-more>.line {
+    width: 1px;
+    border: none;
+    background-color: #fff;
+    height: 20px;
+}
+
+.btn__add-new:hover,
+.btn__add-new:focus,
+.btn__expand-more:hover,
+.btn__expand-more:focus {
+    background-color: #35bf22;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    margin-top: 20px;
+    width: 73px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto Medium;
+    color: #1F1F1F;
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-store {
+    margin-top: 20px;
+    width: 73px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto Medium;
+    color: #1F1F1F;
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-save {
+    margin-top: 20px;
+    width: 113px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto Medium;
+    color: #fff;
+    background-color: #2ca01c;
+    border: unset;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-save:hover,
+.btn-save:focus {
+    background-color: #35bf22;
+    cursor: pointer;
+}
+
+.btn-store:hover,
+.btn-store:focus, .btn-cancel:hover,
+.btn-cancel:focus {
+    background-color: #d2d3d6;
+    cursor: pointer;
+}
+
+.btn-execution {
+    border: 2px solid #3b3c3f;
+    border-radius: 30px;
+    padding: 0 16px;
+    height: 36px;
+    background-color: #fff;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #111;
+    cursor: pointer;
+}
+
+.header__btn-search {
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -955px -26px;
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border: 1px solid #EBEBEB;
+    cursor: pointer;
+    padding: 6px 10px 2px 0;
+    border-left: none;
+}
+
+.btn-utilities {
+    width: 100px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid #3b3c3f;
+    cursor: pointer;
+}
+
+.btn-utilities>.icon {
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -564px -365px;
+    height: 5px;
+    width: 10px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.btn-utilities:hover,
+.btn-utilities:focus {
+    background-color: #d2d3d6;
+}
+
+.close-dialog{
+    width: 68px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto Medium;
+    color: #fff;
+    background-color: #2ca01c;
+    border: unset;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.close-dialog:hover,
+.close-dialog:focus {
+    background-color: #35bf22;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+select {
+    height: 29px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #EBEBEB;
+    cursor: pointer;
+    margin-bottom: 11px;
+}
+
+#unit {
+    width: 430px;
+}
+
+option {
+    height: 29px;
+    border-width: 1px;
+    border-color: #EBEBEB;
+    cursor: pointer;
+}

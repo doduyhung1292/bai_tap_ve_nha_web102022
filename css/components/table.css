@@ -1,0 +1,152 @@
+table, th, td {
+    border: 1px black;
+    border-collapse: collapse; 
+    color: #1F1F1F;
+    height: calc(100% - 126px);
+    width: 100%;
+}
+
+th {
+    border: 1px solid #c7c7c7;
+    background-color: #e5e8ec;
+    font-size: 12px;
+    font-weight: 700px;
+    font-family: Roboto Bold;
+    height: 35px;
+}
+
+td {
+    font-size: 13px;
+    font-weight: 400;
+    height: 44px;
+    border: 1px dotted #c7c7c7;
+    padding: 0 10px;
+    border-top: 1px solid #c7c7c7;
+}
+
+.th__employee-id {
+    min-width: 258px;
+    min-width: 258px;
+    padding-left: 62px;
+}
+
+.th__checkbox {
+    width: 40px;
+    min-width: 40px;
+    padding: 0;
+    height: 37px;
+    background-color: #e5e8ec;
+}
+
+.th__fullname {
+    width: 293px;
+    min-width: 293px;
+}
+
+.th__sex {
+    width: 120px;
+    min-width: 120px;
+}
+
+.th__date-of-birth {
+    width: 118px;
+    min-width: 118px;
+}
+
+.th__entity-number {
+    width: 110px;
+    min-width: 110px;
+}
+
+.th__issue-date {
+    width: 150px;
+    min-width: 150px;
+}
+
+.th__title-job {
+    width: 100px;
+    min-width: 100px;
+}
+
+.th__issued-by {
+    width: 150px;
+    min-width: 150px;
+}
+
+.th__id-unit {
+    width: 150px;
+    min-width: 150px;
+}
+.th__unit {
+    width: 200px;
+    min-width: 200px;
+}
+
+.th__bank-account {
+    width: 140px;
+    min-width: 140px;
+}
+
+.th__bank-name {
+    width: 250px;
+    min-width: 250px;
+}
+
+.th__branch-bank {
+    width: 250px;
+    min-width: 250px;
+}
+
+.th__is-customer {
+    width: 150px;
+    min-width: 150px;
+}
+
+.th__is-supplier {
+    max-width: 246px;
+    min-width: 246px;
+    padding-left: 24px;
+    text-align: left;
+}
+
+.th__function {
+    width: 120px;
+    min-width: 120px;
+    padding: 0;
+    height: 33px;
+    background-color: #e5e8ec;
+    border-bottom: solid;
+    padding-top: 10px;
+}
+
+.td__function {
+    padding: 0 10px;
+    width: 100px;
+    min-width: 100px;
+    font-weight: 600;
+    color: #0075c0;
+}
+
+.td__checkbox {
+    width: 40px;
+    min-width: 40px;
+    padding: 0;
+}
+
+.td__checkbox>input {
+    margin-top: 13px;
+    margin-left: 11px;
+}
+
+.td__employee-id {
+    min-width: 258px;
+    min-width: 258px;
+    padding-left: 72px;
+}
+
+.td__is-supplier {
+    padding-left: 24px;
+    text-align: left;
+    max-width: 246px;
+    min-width: 246px;
+}

@@ -1,0 +1,38 @@
+.header {
+    width: calc(100% - 178px);
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.header-left {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right__username {
+    cursor: pointer;
+}
+
+.header-right__avatar {
+    background-color: black;
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+    margin-left: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}

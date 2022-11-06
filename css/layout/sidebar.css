@@ -1,0 +1,59 @@
+.sidebar {
+    width: 178px;
+    height: 100vh;
+    background-color: #393a3d;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+.logo__brand {
+    box-sizing: border-box;
+    width: 96px;
+    height: 32px;
+    background-image: url(../../assets/img/Logo_Module_TiengViet_White.66947422.svg);
+    background-repeat: no-repeat;
+    background-size: 96px 32px;
+    margin-top: 10px;
+}
+
+.menu-item {
+    box-sizing: border-box;
+    height: 42px;
+    width: 173px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+a {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #59595d;
+}
+
+.sidebar-item {
+    overflow-y: scroll;
+}
+
+.sidebar-item::-webkit-scrollbar {
+    width: 0px;
+    height: 100%;
+}
