@@ -8,6 +8,12 @@ input {
     border-style: solid;
 }
 
+input:focus, select:focus {
+    border-width: 1px;
+    outline: none;
+    border-color: #2ca10c;
+}
+
 #id-employee {
     width: 130px;
     margin-right: 6px;

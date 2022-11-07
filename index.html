@@ -158,10 +158,10 @@
                     </div>
                 </div>
                 <div class="main-content-table">
-                    <table>
+                    <table class="row-table">
+                        <threat >
                         <tr>
-                            <th class="col-out--left"></th>
-                            <th class="th__checkbox  fix-col__left">
+                            <th class="th__checkbox">
                                 <input type="checkbox">
                             </th>
                             <th class="th__employee-id">MÃ NHÂN VIÊN</th>
@@ -179,66 +179,14 @@
                             <th class="th__branch-bank">CHI NHÁNH TK NGÂN HÀNG</th>
                             <th class="th__is-customer">LÀ KHÁCH HÀNG</th>
                             <th class="th__is-supplier">LÀ NHÀ CUNG CẤP</th>
-                            <th class="th__function fix-col__right">CHỨC NĂNG</th>
-                            <th class="col-out--right"></th>
+                            <th class="th__function">CHỨC NĂNG</th>
                         </tr>
-                        <tr>
-                            <td class="col-out--left"></td>
-                            <td class="td__checkbox fix-col__left"><input type="checkbox"></td>
-                            <td class="td__employee-id">a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td class="td__function fix-col__right" style="display: flex;
-                            flex-direction: row;    align-items: center;justify-content: center;">
-                                Sửa
-                                <div class="dropdown">
-                                    <select style="height: 16px; width: 19px;border: none; margin: 0">
-                                        <option hidden></option>
-                                        <option><button>Nhân bản</button></option>
-                                        <option><button>Xóa</button></option>
-                                        <option><button>Sử dụng</button></option>
-                                    </select>
-                                </div>
-                            </td>
-                            <td class="col-out--right"></td>
-                        </tr>
-                        <tr>
-                            <td class="col-out--left"></td>
-                            <td class="td__checkbox fix-col__left"><input type="checkbox"></td>
-                            <td class="td__employee-id">a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td>a</td>
-                            <td class="td__function fix-col__right">a</td>
-                            <td class="col-out--right"></td>
-                        </tr>
+                        </threat>
+                        <tbody></tbody>
                     </table>
                 </div>
-                    <div class="container-footer">
-                        <div class="main-paging-left">Tổng số: <span>111</span> bản ghi</div>
+                <div class="container-footer">
+                    <div class="main-paging-left">Tổng số: <span>111</span> bản ghi</div>
                         <div class="main-paging-right">
                             <div class="select-paging">
                                 <select>
@@ -285,16 +233,16 @@
                     <div class="display-inline">
                         <div>
                             <label for="id-employee">Mã <span style="color: red">*</span></label><br />
-                            <input type="text" id="id-employee">
+                            <input type="text" id="id-employee" label="Mã nhân viên" required>
                         </div>
                         <div>
-                            <label for="full-name">Tên <span style="color: red">*</span></label><br />
-                            <input type="text" id="full-name">
+                            <label for="full-name">Tên </label><span style="color: red">*</span><br />
+                            <input type="text" id="full-name" label="Họ và tên" required>
                         </div>
                     </div>
                     <div>
-                        <label for="unit">Đơn vị <span style="color: red">*</span></label><br />
-                        <select name="unit" id="unit">
+                        <label for="unit">Đơn vị </label><span style="color: red">*</span><br />
+                        <select name="unit" id="unit" required>
                             <option value="" style="display: none;"></option>
                             <option>Phòng nhân sự</option>
                         </select>
@@ -393,9 +341,6 @@
             <div class="content-main">
                 <div class="icon-warning"></div>
                 <div class="content-warning">
-                    <div class="warning">Tên không được để trống</div>
-                    <div class="warning">Tên không được để trống</div>
-                    <div class="warning">Tên không được để trống</div>
                 </div>
             </div>
             <div class="content-footer">

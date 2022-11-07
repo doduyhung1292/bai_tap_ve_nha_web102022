@@ -19,11 +19,36 @@ td {
     font-size: 13px;
     font-weight: 400;
     height: 44px;
-    border: 1px dotted #c7c7c7;
+    border-left: 1px dotted #c7c7c7;
+    border-right: 1px dotted #c7c7c7;
     padding: 0 10px;
     border-top: 1px solid #c7c7c7;
 }
 
+tr:hover {
+    background-color: #e5f3ff;
+}
+/*fixed 1st column*/
+tr>th:first-child,tr>td:first-child {
+    position: sticky;
+    left: 0;
+    border-left: none;
+  }
+tr>td:first-child {
+    background-color: #fff;
+}
+
+/*fixed last column*/
+tr>th:last-child,tr>td:last-child {
+    position: sticky;
+    right: 0;
+    border-right: none;
+  }
+tr>td:last-child {
+    background-color: #fff;
+}
+
+/*define width column*/
 .th__employee-id {
     min-width: 258px;
     min-width: 258px;
@@ -113,14 +138,10 @@ td {
     width: 120px;
     min-width: 120px;
     padding: 0;
-    height: 33px;
     background-color: #e5e8ec;
-    border-bottom: solid;
-    padding-top: 10px;
 }
 
 .td__function {
-    padding: 0 10px;
     width: 100px;
     min-width: 100px;
     font-weight: 600;
